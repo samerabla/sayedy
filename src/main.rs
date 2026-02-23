@@ -291,7 +291,7 @@ pub fn App() -> impl IntoView {
                     </div>
                 </div>
 
-                <p class="footer-note">"Alle Preise in Euro · DE"</p>
+                <p class="footer-note">"سيدي و مولاي"</p>
             </div>
         </div>
     }
