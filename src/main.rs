@@ -252,8 +252,7 @@ pub fn App() -> impl IntoView {
 
         <div class="card">
             <div class="card-header">
-                <h1>"Hussein Bamarny"</h1>
-                <span class="badge">"19%"</span>
+                <h1>"Hussen Bamerny"</h1>
             </div>
 
             <div class="card-body">
