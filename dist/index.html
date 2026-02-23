@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayedy Hussein</title>
+<link rel="modulepreload" href="/sayedy-6b5c969bcc2c7c0d.js" crossorigin="anonymous" integrity="sha384-Y9sH9Uy0Brh/tZtrmKXh+gdjvZHrTdPx0017019SGWVmEgfeZFGgGOoHbNeomxxB"><link rel="preload" href="/sayedy-6b5c969bcc2c7c0d_bg.wasm" crossorigin="anonymous" integrity="sha384-9WHzL5WHzE6KBGWzw3Vp9bW7DnK8w/6Bok5o1WYQup1PF5ndqk9oI0b4w/p3wdjg" as="fetch" type="application/wasm"></head>
+<body>
+    
+
+<script type="module">
+import init, * as bindings from '/sayedy-6b5c969bcc2c7c0d.js';
+const wasm = await init({ module_or_path: '/sayedy-6b5c969bcc2c7c0d_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script></body>
+</html>
